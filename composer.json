@@ -25,11 +25,14 @@
     ],
     "require": {
         "php": ">=7.4",
-        "symfony/console": "^6.0",
-        "symfony/polyfill": "^1.33"
+        "symfony/polyfill": "^1.33",
+        "symfony/console": "^5.4"
     },
     "bin": ["bin/php-code-minifier"],
     "config": {
+        "platform": {
+            "php": "7.4"
+        },
         "allow-plugins": {
         }
     }
