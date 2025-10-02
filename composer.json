@@ -1,6 +1,6 @@
 {
-    "name": "php-code-minifier/php-code-minifier",
-    "description": "PHP Code Minifier is a tool that allows you to minify your PHP code.",
+    "name": "inilim/php-code-minifier",
+    "description": "Is fork. PHP Code Minifier is a tool that allows you to minify your PHP code.",
     "type": "library",
     "license": ["MIT"],
     "keywords": [
