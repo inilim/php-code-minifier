@@ -59,11 +59,15 @@ class PhpMinifier
         '<?=' => true,
         '?>'  => true,
     ];
+    private PhpFileValidator $phpFileValidator;
+    private PhpTokenizer     $phpTokenizer;
 
     public function __construct(
-        private PhpFileValidator $phpFileValidator,
-        private PhpTokenizer     $phpTokenizer
+        PhpFileValidator $phpFileValidator,
+        PhpTokenizer     $phpTokenizer
     ) {
+        $this->phpFileValidator = $phpFileValidator;
+        $this->phpTokenizer = $phpTokenizer;
     }
 
     /**
